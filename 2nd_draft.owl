@@ -1,0 +1,1085 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:e011d33c-7ce6-4d30-a346-c4a06d7b70b5#"
+     xml:base="urn:webprotege:ontology:e011d33c-7ce6-4d30-a346-c4a06d7b70b5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:e011d33c-7ce6-4d30-a346-c4a06d7b70b5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R91BTVmI7f8JTPsQowDhI0 -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R91BTVmI7f8JTPsQowDhI0">
+        <rdfs:label xml:lang="en">has_incubation_period</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBlcpMqRUKlJ4NPBMTAcdZz"/>
+        <rdfs:label xml:lang="en">caused_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDRUuzk2ATLhaQQamIieE1c"/>
+        <rdfs:label xml:lang="en">recommend_department</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">has_symptom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yGNE7f436aPsaoPxSadQs -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7yGNE7f436aPsaoPxSadQs">
+        <rdfs:label xml:lang="en">hasMaxDuration</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8lGusF31mZdXUBsJa9zRcz -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8lGusF31mZdXUBsJa9zRcz">
+        <rdfs:label xml:lang="en">hasMinDuration</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74UL4raMWtVRv8WmZF4VNU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R74UL4raMWtVRv8WmZF4VNU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Fever</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7JJrzFkEMwfWEmAv2ndeXD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7JJrzFkEMwfWEmAv2ndeXD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Runny Nose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7TidVcHhhiN3vXgqnVBaZV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7TidVcHhhiN3vXgqnVBaZV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Muscle Pain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7vDJhQMR6aDfvMpXAio5bV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7vDJhQMR6aDfvMpXAio5bV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRUuzk2ATLhaQQamIieE1c"/>
+        <rdfs:label xml:lang="en">Infectious Diseases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R80lCnUF6luEC8DJzxYzFId -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R80lCnUF6luEC8DJzxYzFId">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB8tkheGBDcAyagDNfL49PM"/>
+        <rdfs:label xml:lang="en">Dry Cough</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81ed6QEV9DdUrDO2duhgXT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R81ed6QEV9DdUrDO2duhgXT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB8tkheGBDcAyagDNfL49PM"/>
+        <rdfs:label xml:lang="en">Severe Cough</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8FySEuAJBscvqddcXwzrGS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8FySEuAJBscvqddcXwzrGS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R74UL4raMWtVRv8WmZF4VNU"/>
+        <rdfs:label xml:lang="en">High Fever</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8R94xuWWQT73wKttgPv5cY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8R94xuWWQT73wKttgPv5cY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Swollen Lymph Nodes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SK8A9r0CQtsUceBgnqvie -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8SK8A9r0CQtsUceBgnqvie">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDTfL96HSzptJGJ59Y8EEsZ"/>
+        <rdfs:label xml:lang="en">Persistent Sore Throat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8koz3sNOvIDR3fEC4snse4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8koz3sNOvIDR3fEC4snse4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asthma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R99WTyUtMZHUMknb4TT0DLT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R99WTyUtMZHUMknb4TT0DLT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Chills</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Hid4c6pQSc87VrTjSpW7c -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Hid4c6pQSc87VrTjSpW7c">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlcpMqRUKlJ4NPBMTAcdZz"/>
+        <rdfs:label xml:lang="en">Bacteria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9MRm4I2dMhQiX01LzOGeKF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9MRm4I2dMhQiX01LzOGeKF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Wheezing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9z0tBN9pppIqEfBSknKSu8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9z0tBN9pppIqEfBSknKSu8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDTfL96HSzptJGJ59Y8EEsZ"/>
+        <rdfs:label xml:lang="en">Severe Sore Throat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8tkheGBDcAyagDNfL49PM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB8tkheGBDcAyagDNfL49PM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Cough</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBPqFqJMjmcA1sc34bFnA8K -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBPqFqJMjmcA1sc34bFnA8K">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Headache</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBZjGPXtAB9MfYEKW8Ukuyi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBZjGPXtAB9MfYEKW8Ukuyi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdfs:label xml:lang="en">Flu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcCS8vGE9AasJK2hGF1jAR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBcCS8vGE9AasJK2hGF1jAR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdfs:label xml:lang="en">Infectious Mononucleosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a">
+        <rdfs:label xml:lang="en">Symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBerxNCmb1Q0IyoAGerD5mf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBerxNCmb1Q0IyoAGerD5mf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdfs:label xml:lang="en">Migraine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlcpMqRUKlJ4NPBMTAcdZz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBlcpMqRUKlJ4NPBMTAcdZz">
+        <rdfs:label xml:lang="en">Etiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpZVvSqsi4fNkUkk9dEZg5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBpZVvSqsi4fNkUkk9dEZg5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Breathing Difficulties</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0ckqViimbXNntr0GijJLz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC0ckqViimbXNntr0GijJLz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRUuzk2ATLhaQQamIieE1c"/>
+        <rdfs:label xml:lang="en">Neurology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1QWLWToK1QqOsIZnPpsp1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC1QWLWToK1QqOsIZnPpsp1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdfs:label xml:lang="en">RSV (Respiratory Syncytial Virus)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBZJjasouPXQXkkJwbw26q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCBZJjasouPXQXkkJwbw26q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRUuzk2ATLhaQQamIieE1c"/>
+        <rdfs:label xml:lang="en">Pediatrics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCFRyvTWPCVeeQhJJwkHWU9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCFRyvTWPCVeeQhJJwkHWU9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRUuzk2ATLhaQQamIieE1c"/>
+        <rdfs:label xml:lang="en">Otolaryngology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPGvm7Qty9pdLfspGLjCRP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCPGvm7Qty9pdLfspGLjCRP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R74UL4raMWtVRv8WmZF4VNU"/>
+        <rdfs:label xml:lang="en">Mild Fever</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCbKp2qkOLDMZFUSWJFiZPd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCbKp2qkOLDMZFUSWJFiZPd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Loss of Taste/Smell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCbxVUVmJ3lnucH5EhTXixO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCbxVUVmJ3lnucH5EhTXixO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdfs:label xml:lang="en">COVID-19</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCdPQoyKdj3pza93Uv70KOL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCdPQoyKdj3pza93Uv70KOL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Swallowing Difficulties</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCr5CPFt6K8VxLSGfik31b0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCr5CPFt6K8VxLSGfik31b0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB8tkheGBDcAyagDNfL49PM"/>
+        <rdfs:label xml:lang="en">No Cough</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCvWtKC3Yo9lmrEEyv6K6gv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCvWtKC3Yo9lmrEEyv6K6gv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdfs:label xml:lang="en">Strep Throat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD15rkpaBp4VV8KaUfg2EJm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD15rkpaBp4VV8KaUfg2EJm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Chest Tightness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD7UB1QVAJuvlCWOQhWoUM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD7UB1QVAJuvlCWOQhWoUM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDfAJ8w5IdzCDCCUMm8lncp"/>
+        <rdfs:label xml:lang="en">Severe Fatigue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDB1M9EiRyCvCteuzch63bz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDB1M9EiRyCvCteuzch63bz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBPqFqJMjmcA1sc34bFnA8K"/>
+        <rdfs:label xml:lang="en">Unilateral Throbbing Headache</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDHMOmvtpUksOFSU43dq1EL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDHMOmvtpUksOFSU43dq1EL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlcpMqRUKlJ4NPBMTAcdZz"/>
+        <rdfs:label xml:lang="en">Virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDL7ZMloOnPWPh1O82TbGhK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDL7ZMloOnPWPh1O82TbGhK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlcpMqRUKlJ4NPBMTAcdZz"/>
+        <rdfs:label xml:lang="en">Environmental Factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRUuzk2ATLhaQQamIieE1c -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDRUuzk2ATLhaQQamIieE1c">
+        <rdfs:label xml:lang="en">Department</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDTSxaJtXqUOQNOKmgMjShB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDTSxaJtXqUOQNOKmgMjShB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlcpMqRUKlJ4NPBMTAcdZz"/>
+        <rdfs:label xml:lang="en">Genetic Factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDTfL96HSzptJGJ59Y8EEsZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDTfL96HSzptJGJ59Y8EEsZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Sore Throat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDfAJ8w5IdzCDCCUMm8lncp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDfAJ8w5IdzCDCCUMm8lncp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Fatigue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDpJZh5VQE3ugWadJa5oNtg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDpJZh5VQE3ugWadJa5oNtg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRUuzk2ATLhaQQamIieE1c"/>
+        <rdfs:label xml:lang="en">Allergy &amp; Immunology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDtbqJr1I3wlENXgmLqHJBb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDtbqJr1I3wlENXgmLqHJBb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRUuzk2ATLhaQQamIieE1c"/>
+        <rdfs:label xml:lang="en">General Practice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM">
+        <rdfs:label xml:lang="en">Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGkcGbPTimhV6vfz3MKSNx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RGkcGbPTimhV6vfz3MKSNx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDRUuzk2ATLhaQQamIieE1c"/>
+        <rdfs:label xml:lang="en">Pulmonology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RI2hPEvqjmTBSOcFKdS8BY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RI2hPEvqjmTBSOcFKdS8BY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlcpMqRUKlJ4NPBMTAcdZz"/>
+        <rdfs:label xml:lang="en">Neurovascular Dysfunction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSNKeXPjlSdimtR2N2XlZ8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSNKeXPjlSdimtR2N2XlZ8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Shortness of Breath (More common in children)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ReJaxqXvoHD56CHChfnW6h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ReJaxqXvoHD56CHChfnW6h">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Light/Sound Sensitivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ReU1UGg7vdNrqHKYsRrzdw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ReU1UGg7vdNrqHKYsRrzdw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Chest Pain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqPqNuXIRHI3RSrPCKDVXv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqPqNuXIRHI3RSrPCKDVXv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBe57Y1tD4vhrp1awJ7dx9a"/>
+        <rdfs:label xml:lang="en">Nausea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqYph6PibIYK6kwAJgT9B6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqYph6PibIYK6kwAJgT9B6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdfs:label xml:lang="en">Pneumonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rys2CsGcesiAqS5mqSYPTe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rys2CsGcesiAqS5mqSYPTe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdfs:label xml:lang="en">Common Cold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8DZ00wYk0JaizlVHZYkiDm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8DZ00wYk0JaizlVHZYkiDm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDHMOmvtpUksOFSU43dq1EL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7vDJhQMR6aDfvMpXAio5bV"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDtbqJr1I3wlENXgmLqHJBb"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74UL4raMWtVRv8WmZF4VNU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7TidVcHhhiN3vXgqnVBaZV"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8FySEuAJBscvqddcXwzrGS"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R99WTyUtMZHUMknb4TT0DLT"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB8tkheGBDcAyagDNfL49PM"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBPqFqJMjmcA1sc34bFnA8K"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RD7UB1QVAJuvlCWOQhWoUM"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7yGNE7f436aPsaoPxSadQs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</webprotege:R7yGNE7f436aPsaoPxSadQs>
+        <webprotege:R8lGusF31mZdXUBsJa9zRcz rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</webprotege:R8lGusF31mZdXUBsJa9zRcz>
+        <rdfs:label xml:lang="en">Flu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98mvDcTsjBNHNMPPQz3acC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R98mvDcTsjBNHNMPPQz3acC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDHMOmvtpUksOFSU43dq1EL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7vDJhQMR6aDfvMpXAio5bV"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDtbqJr1I3wlENXgmLqHJBb"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74UL4raMWtVRv8WmZF4VNU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8R94xuWWQT73wKttgPv5cY"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8SK8A9r0CQtsUceBgnqvie"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RD7UB1QVAJuvlCWOQhWoUM"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">Infectious Mononucleosis (Mono)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9hEwp1RBReHDcPTDc5J5mH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9hEwp1RBReHDcPTDc5J5mH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9Hid4c6pQSc87VrTjSpW7c"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDHMOmvtpUksOFSU43dq1EL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7vDJhQMR6aDfvMpXAio5bV"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RGkcGbPTimhV6vfz3MKSNx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R81ed6QEV9DdUrDO2duhgXT"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8FySEuAJBscvqddcXwzrGS"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBpZVvSqsi4fNkUkk9dEZg5"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/ReU1UGg7vdNrqHKYsRrzdw"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">Pneumonia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBuW8mEJ13FtxLA8FXpKdnX -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBuW8mEJ13FtxLA8FXpKdnX">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDHMOmvtpUksOFSU43dq1EL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7vDJhQMR6aDfvMpXAio5bV"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74UL4raMWtVRv8WmZF4VNU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R80lCnUF6luEC8DJzxYzFId"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBpZVvSqsi4fNkUkk9dEZg5"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCbKp2qkOLDMZFUSWJFiZPd"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDfAJ8w5IdzCDCCUMm8lncp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R8lGusF31mZdXUBsJa9zRcz rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</webprotege:R8lGusF31mZdXUBsJa9zRcz>
+        <rdfs:label xml:lang="en">COVID-19</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RChx9SHLnSeBSWd60ixqzpD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RChx9SHLnSeBSWd60ixqzpD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDL7ZMloOnPWPh1O82TbGhK"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDTSxaJtXqUOQNOKmgMjShB"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDpJZh5VQE3ugWadJa5oNtg"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RGkcGbPTimhV6vfz3MKSNx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9MRm4I2dMhQiX01LzOGeKF"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB8tkheGBDcAyagDNfL49PM"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RD15rkpaBp4VV8KaUfg2EJm"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">Asthma</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCljBYRKrBzv7C1aUOwnGaM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCljBYRKrBzv7C1aUOwnGaM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDHMOmvtpUksOFSU43dq1EL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCBZJjasouPXQXkkJwbw26q"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RGkcGbPTimhV6vfz3MKSNx"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74UL4raMWtVRv8WmZF4VNU"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9MRm4I2dMhQiX01LzOGeKF"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB8tkheGBDcAyagDNfL49PM"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RSNKeXPjlSdimtR2N2XlZ8"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">RSV (Respiratory Syncytial Virus)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDMzR38hdQoRyRnZkjyklM0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDMzR38hdQoRyRnZkjyklM0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9Hid4c6pQSc87VrTjSpW7c"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCFRyvTWPCVeeQhJJwkHWU9"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDtbqJr1I3wlENXgmLqHJBb"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8FySEuAJBscvqddcXwzrGS"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9z0tBN9pppIqEfBSknKSu8"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCdPQoyKdj3pza93Uv70KOL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCr5CPFt6K8VxLSGfik31b0"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">Strep Throat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RS01uWFVh3d4DxzuZOgYBh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RS01uWFVh3d4DxzuZOgYBh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9Hid4c6pQSc87VrTjSpW7c"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDHMOmvtpUksOFSU43dq1EL"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCFRyvTWPCVeeQhJJwkHWU9"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDtbqJr1I3wlENXgmLqHJBb"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7JJrzFkEMwfWEmAv2ndeXD"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB8tkheGBDcAyagDNfL49PM"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCPGvm7Qty9pdLfspGLjCRP"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDTfL96HSzptJGJ59Y8EEsZ"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDfAJ8w5IdzCDCCUMm8lncp"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:R7yGNE7f436aPsaoPxSadQs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</webprotege:R7yGNE7f436aPsaoPxSadQs>
+        <rdfs:label xml:lang="en">Common Cold</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSigh5uAKZ1mnLHxJ44K4q -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RSigh5uAKZ1mnLHxJ44K4q">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDvW6cfIcPj9B5xhvpEqGiM"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDTSxaJtXqUOQNOKmgMjShB"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9tq67Kcsp2leEl7MqwS0AF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RI2hPEvqjmTBSOcFKdS8BY"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBUJmWK4r23vajFBQkkdmvr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC0ckqViimbXNntr0GijJLz"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDB1M9EiRyCvCteuzch63bz"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/ReJaxqXvoHD56CHChfnW6h"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rbx9h1kAp9x585c3tCLUMv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RqPqNuXIRHI3RSrPCKDVXv"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">Migraine</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

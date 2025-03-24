@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hospitalbot-bwpg",
+  "private_key_id": "8f58d88745418e59c960c8ed9860d83754214702",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCSaFw2fb77L+2h\npc3dmTSWs0RxPRMbmm6EllGGZi95a/JlqPTIJUl9j4RREocTRT7b7Grv3Ke5tLC3\nB3iw+5S7rEzBIVZ08YvJcm/Hdt6b2Gv2PxwSxmslFQuRcaS0SL5rFq3XATQEgiaj\nz6dpVGfMVRxmc0DKEW65q0DJ32E2EzrdcOF1jP7dLOq47DJwTDi1eaCEHt0qSgNT\nwAkXOQPmW01p5cxDDYSjFWPW3wK/gYvx3DV2k5VWPsCijmTaNp10B2B1s+d1UPjI\ns+wslW2IWgxdVfiyj9lg934pXFAgbXdci/RA51BohODG0TzohchGhu8BULBwYMIW\nvFe1wYKlAgMBAAECggEAGSbWDqNwG5F6iq5kDTl8bBZMgAKsxW10ppD3XPYxmjO1\n/wp1UOv88dXltpLPAzu+ZoQ5Q889vjzBLhRZwtfZj5s0TWp3gpwbdmZTNypf6FiY\nBYQGg+Az+Hki1V/3WmRz2AxbnYfuooakcjhii4kNUvBdMmmC3CP+CGYX+YZHWkVV\nVjzWJuU4Awsavd0Lz5sO3IBA9AqV2mj47ToLuz6C5WsJYOSJCieK1F22LyTnUScO\nx5l5LPTHX3bHRsKpDQZ3Lo6rx6gOLocXkq9Et4tx+mpO+Y0Yk/zwek1bZl++Kx+O\nRje83n6Z2s+oTNhaXW0qbQLLmThTfy+2sciuc3KVGQKBgQDMVamE1CTcLI9yH8bL\nwUO3IkS4Yh+G3MAPacKDDpEGVzcs52fCXDzbtX4FqvFDfNG6vgU2gaxFo4nnV+iR\nNyPrSmDuCG94iSsYbq3G8XpHsb1cdb18TnllV7HLIJBCiKLfK4cCfepBpbv9BK63\nixK8C2I1rNk9J4bcDI/uPgBrrQKBgQC3bSeKNApiOZRoxIjnXAx1Jb5y/fCgzEW5\n0HHohxWp1BtK0iI5hZMgOXMWpDuXUfVG+bRnxi8XzYiftQFuNeQeTyX1f11eebO3\n9oEDAkqypsVPkrx+ex7rEEA4ekjDf7rIWv4/AKvdOQV44nV8lmmqhEZYV1mv7RrR\nY1wjnTbR2QKBgFfcbavj3IWf035rE3wBejCA17PA3XWL7jmybCUWWl2zmtIAHqmA\nJ9sBS1L8kglG3pfBpVQupfi7vUxwjFwErbk6njs7/VKDCLjUvnxQ0ReK4bWkGvoc\ndC6TaqvBMMarIf18Je14XwYjUZYWMVpSvpeE/ZG+5RpaqK5t6GW021FxAoGAKrC/\n9B16kTPfg6bCSj6VM6quMatCltoUHFQUPs85zoXsODTB/GtHO8fDLnDY4bYUhQlW\n4JQyn7KZarpA8/qc9iTrq8CR5YwjtNwtWJru8bd40rVPI4zaPFFS8RIc30taGIl9\nBQLN/TXpPSJPv8huHV6d1K+30wc3J6adajiL6rkCgYEAlZeEGgpREVO45EzNq6r3\nVOAuxChBs6PC+lWXorTfprPaIHjolD24WLcYoODtYG/Sf+RVECeTcohqfz7Wcm7i\njiMyCDakWnFKyYocv++T/201qRW0bkreoewcStkH3TCSAuT3y0ahPANyZDJfyxR8\nPRRvWH+G5BY7d347fsyGnQQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hospitalbot-service@hospitalbot-bwpg.iam.gserviceaccount.com",
+  "client_id": "117622719230254511322",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hospitalbot-service%40hospitalbot-bwpg.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

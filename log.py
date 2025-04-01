@@ -74,52 +74,39 @@ def get_session_chat_history(session_id):
 
 def save_chat_history_entity(session_id, response):
     try:
-        # Log the response type and content to inspect the issue
         logger.info(f"Response type: {type(response)}")
         logger.info(f"Response content: {response}")
 
-        # Ensure that the response is in the expected format (a dictionary)
-        if isinstance(response, dict):  # Check if response is a dictionary
+        if isinstance(response, dict):
             query_result = response.get('queryResult', {})
             parameters = query_result.get('parameters', {})
-            output_contexts = query_result.get('outputContexts', [])
 
-            # Loop through the parameters and extract entity values
             for entity_name, entity_values in parameters.items():
-                entity_value = entity_values[0] if entity_values else ''
+                # ตรวจสอบและแทนค่าที่เป็น None หรือ "" ด้วยค่าว่าง
+                entity_value = entity_values[0] if entity_values and entity_values[0] else ''
                 
-                # Check if the entity already exists in the table for this session_id
                 query_check = """
                     SELECT COUNT(1) 
                     FROM `hospitalbot-bwpg.hospitalbot.transaction_entity`
                     WHERE session_id = @session_id AND entity = @entity
                 """
-                
-                # Set up the job configuration for checking if the entity exists
                 job_config_check = bigquery.QueryJobConfig(
                     query_parameters=[
                         bigquery.ScalarQueryParameter("session_id", "STRING", session_id),
                         bigquery.ScalarQueryParameter("entity", "STRING", entity_name)
                     ]
                 )
-                
-                # Run the query to check if the entity already exists
                 query_job_check = client.query(query_check, job_config=job_config_check)
-                result_check = query_job_check.result()  # Wait for the result
-                
-                # Get the count of rows where the entity already exists
+                result_check = query_job_check.result()
                 count_rows = list(result_check)[0][0]
                 
                 if count_rows > 0:
-                    # If the entity exists, append the new details to the existing row(s)
                     update_query = """
                         UPDATE `hospitalbot-bwpg.hospitalbot.transaction_entity`
-                        SET detail = CONCAT(detail, ', ', @detail),
-                            detail_original = CONCAT(detail_original, ', ', @detail_original)
+                        SET detail = CONCAT(detail, ', ', NULLIF(@detail, '')),
+                            detail_original = CONCAT(detail_original, ', ', NULLIF(@detail_original, ''))
                         WHERE session_id = @session_id AND entity = @entity
                     """
-                    
-                    # Set up the job configuration for updating the details
                     job_config_update = bigquery.QueryJobConfig(
                         query_parameters=[
                             bigquery.ScalarQueryParameter("session_id", "STRING", session_id),
@@ -128,22 +115,15 @@ def save_chat_history_entity(session_id, response):
                             bigquery.ScalarQueryParameter("detail_original", "STRING", entity_name + '.original')
                         ]
                     )
-                    
-                    # Run the update query
                     query_job_update = client.query(update_query, job_config=job_config_update)
-                    query_job_update.result()  # Wait for the query to complete
-                    
+                    query_job_update.result()
                     logger.info(f"Appended details for entity: {entity_name} in session: {session_id}")
-                
                 else:
-                    # If the entity does not exist, insert a new row
                     insert_query = """
                         INSERT INTO `hospitalbot-bwpg.hospitalbot.transaction_entity` 
                         (session_id, entity, detail, entity_original, detail_original)
-                        VALUES (@session_id, @entity, @detail, @entity_original, @detail_original)
+                        VALUES (@session_id, @entity, NULLIF(@detail, ''), @entity_original, NULLIF(@detail_original, ''))
                     """
-                    
-                    # Set up the job configuration for inserting a new row
                     job_config_insert = bigquery.QueryJobConfig(
                         query_parameters=[
                             bigquery.ScalarQueryParameter("session_id", "STRING", session_id),
@@ -153,20 +133,15 @@ def save_chat_history_entity(session_id, response):
                             bigquery.ScalarQueryParameter("detail_original", "STRING", entity_value)
                         ]
                     )
-                    
-                    # Run the insert query
                     query_job_insert = client.query(insert_query, job_config=job_config_insert)
-                    query_job_insert.result()  # Wait for the query to complete
-                    
+                    query_job_insert.result()
                     logger.info(f"Inserted new row for entity: {entity_name} in session: {session_id}")
-        
+
             return True
         else:
-            # If response is not a dictionary, log the error
             logger.error("Response is not in expected dictionary format")
             return False
 
     except Exception as e:
-        # Log the exception for debugging purposes
         logger.error(f"Error in saving chat history entity: {e}")
         return False
